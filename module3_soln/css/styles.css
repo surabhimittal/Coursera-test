@@ -1,0 +1,47 @@
+body {
+  font-size: 20px;
+  color: #fff;
+  font-family: 'Oxygen', sans-serif;
+}
+#header-nav{
+	background-color: #f6b319;
+	border-radius:0;
+	border:0;
+}
+.navbar-brand{
+	margin-top: -8px; 
+	padding-top: 0px;
+	letter-spacing: .1em;
+	text-align: left;
+}
+.hr-space {
+  color: #fff;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+#Chicken-tile, #Beef-tile, #Sushi-tile{
+	position: relative;
+	background-color: gray;
+    width: 100%;
+    margin-bottom: 15px;
+    border: 2px solid #3F0C1F;
+    overflow: hidden;
+}
+#Chicken-tile:hover, #Beef-tile:hover, #Sushi-tile:hover {
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
+#main-content h1 {
+	color:black;
+	font-weight: bolder;
+}
+#main-content p {
+	padding-left: 15px;
+}
+#nav-list a:hover {
+	background-color: green;
+}
+ul#nav-list.nav.navbar-nav.navbar-right.visible-xs {
+  background-color: #4d4d4d;
+  margin-top: 0;
+  margin-bottom: 0;
+}
